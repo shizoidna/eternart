@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/Cinzel-Regular.woff") format("woff");
+    src: url("../fonts/Cinzel-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("../fonts/Cinzel-Bold.woff") format("woff");
+    src: url("../fonts/Cinzel-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monsterrat";
+    src: url("../fonts/Montserrat-Regular.woff") format("woff");
+    src: url("../fonts/Montserrat-Regular.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Light.woff") format("woff");
+    src: url("../fonts/Montserrat-Light.woff2") format("woff2");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Bold.woff") format("woff");
+    src: url("../fonts/Montserrat-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f7f7;
+    font-size: 62.5%;
+}
+
+.introduce {
+    background: url("../img/bg.png") no-repeat  ;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.header-search {
+    align-items: center;
+}
+
+.header-user {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 37px;
+
+}
+
+.headline__title {
+    font-family: "Cinzel", sans-serif;
+    font-size: 83px;
+    font-weight:bold;
+    font-style: normal;
+    text-align: center;
+    margin-top: 180px;
+    color: #fff
+}
+
+.headline__slogan {
+    font-family: "Cinzel", sans-serif;
+    font-size: 34px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+}
+
+.ad {
+    background-color: #fff;
+    width: 1140px;
+    height: 185px;
+    margin: -62px auto 0;
+    box-shadow: 0 17px 40px rgba(0, 0, 0, 0.11);
+}
+
+.ad-marketplace {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 185px;
+
+}
+
+.ad-crystal {
+    background: url("../img/logo2.png") no-repeat;
+    width: 49px;
+    height: 92px;
+    display: inline-block;
+}
+
+.ad-headline {
+    color: #000;
+    font-family: "Cinzel", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    display: inline-block;
+
+}
+
+.orange-style {
+    font-family: "Cinzel", sans-serif;
+    color: #ff601a;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.ad-box {
+    background: url("../img/box.svg") no-repeat;
+    color: #ff601a;
+    font-family: "Cinzel" , sans-serif;
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 43px;
+    text-transform: uppercase;
+    width: 326px;
+    height: 69px;
+    justify-content: center;
+    border-right: 1px solid #ff601a; ;
+}
