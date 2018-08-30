@@ -3,38 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <title>Hello, world!</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="./css/vendor/reset.css">
+    <link rel="stylesheet" href="./css/vendor/icons.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 <div class="introduce">
-    <div class="header">
-        <div class="header-search">
-            <input type="search" name="q" placeholder="Search">
+    <div class="wrapper">
+        <div class="logo">
+            <a class="logo__link" href="">
+                <img class="logo__img" src="./img/logo.png" alt="EterArt" width="234" height="52">
+            </a>
         </div>
-        <div class="header-logo">
-            <img src="img/logo.png" alt="EterArt" width="234" height="52">
+
+        <div class="header">
+            <div class="search">
+                <input class="search__input" type="search" name="q" placeholder="Search">
+                <button class="ea-loop"></button>
+            </div>
+            <nav class="side-menu">
+                <a class="side-menu__item" href="#">
+                    <i class="ea-cabinet"></i>
+                    <span>Cabinet</span></a>
+            </nav>
         </div>
-        <div class="header-user">
-            <a href="#"><img src="img/2-layers.svg" alt=""></a>
-            Cabinet
+        <div class="headline">
+            <div class="headline__title">Eternal Art</div>
+            <div class="headline__slogan">
+                Afford yourself a piece <br>of eternity
+            </div>
         </div>
-    </div>
-    <div class="headline"></div>
-    <div class="headline__title">Eternal Art</div>
-    <div class="headline__slogan">
-        Afford yourself a piece <br>of eternity
     </div>
 </div>
-<div class="ad">
-    <div class="ad-marketplace">
-        <div class="ad-crystal">
+<div class="wrapper">
+    <div class="content">
+        <div class="content__headline">
+            <span class="content__headline_orange">EterArt</span>
+            - a unique blockchain platform for collecting<br>
+            and trading digital versions of art objects
         </div>
-      <div class="ad-headline">
-    <i class="orange-style">EterArt</i> - a unique blockchain platform for collecting<br>
-    and trading digital versions of art objects
-      </div>
-        <div class="ad-box">go to marketplace</div>
+        <div class="content__btn">
+            <a href="" class="content__link">
+                go to marketplace
+            </a>
+        </div>
+    </div>
+    <div class="preview">
+        <img class="preview_secondary" src="./img/museum.png" alt="EterArt">
+        <img class="preview_primary" src="./img/mona.png" alt="EterArt">
     </div>
 </div>
 </body>

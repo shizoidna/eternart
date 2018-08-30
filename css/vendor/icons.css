@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'ea-icon';
+  src:  url('../../fonts/ea-icon.eot?p4fut7');
+  src:  url('../../fonts/ea-icon.eot?p4fut7#iefix') format('embedded-opentype'),
+    url('../../fonts/ea-icon.ttf?p4fut7') format('truetype'),
+    url('../../fonts/ea-icon.woff?p4fut7') format('woff'),
+    url('../../fonts/ea-icon.svg?p4fut7#ea-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ea-"], [class*=" ea-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ea-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ea-shop:before {
+  content: "\e90b";
+}
+.ea-ef:before {
+  content: "\e90c";
+}
+.ea-eter-icon:before {
+  content: "\e90a";
+  color: #eb5d0b;
+}
+.ea-arrow-cabinet:before {
+  content: "\e900";
+}
+.ea-arrow-left:before {
+  content: "\e901";
+}
+.ea-cabinet:before {
+  content: "\e902";
+}
+.ea-drop-arrow:before {
+  content: "\e903";
+}
+.ea-fb:before {
+  content: "\e904";
+}
+.ea-filter:before {
+  content: "\e905";
+}
+.ea-gear:before {
+  content: "\e906";
+}
+.ea-insta:before {
+  content: "\e907";
+}
+.ea-loop:before {
+  content: "\e908";
+}
+.ea-pin:before {
+  content: "\e909";
+}
